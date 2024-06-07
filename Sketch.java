@@ -95,7 +95,8 @@ public class Sketch extends PApplet {
   public void keyPressed(){
     if (keyCode == 40){
       speed = 4;
-    }else if (keyCode == 38){
+    }
+    else if (keyCode == 38){
       speed = 1;
     }
   }
